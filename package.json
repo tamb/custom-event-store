@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "bun test",
-    "build": "bun run test &&tsc --build && bun build.ts"
+    "build": "bun run test && tsc --build && bun build.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
